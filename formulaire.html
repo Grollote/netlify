@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+    <meta charset="utf-8">
+		<title>Anne-Lise Grolleau</title>
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Space+Mono|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="formulaire.css">
+  </head>
+  <body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!--Menu fixe-->
+
+		<div class="main">
+        <div class="accueil" style="z-index: 3;">
+			<div class="logo">
+				<a href ="../campus-contest/index.html"><img style="padding-left: 2%;" id="logo" src="../campus-contest/images/logo.png"></a>
+				<a href="https://www.linkedin.com/in/anne-lise-grolleau-496a6391/"><img style="width: 3%;" id="linkedin" src="../campus-contest/images/linkedin.png" ></a>
+			</div>
+			<div class="menu">
+				<a href="./v3.html" title="Presentation"> Présentation </a>
+				<a href="./v3.html#competences">Compétences</a>
+				<a href="./v3.html#projets" title="Projets"> Projets </a>
+				<a href="./v3.html#formation" title="Formation"> Formation </a>
+				<a href="./recommandations.html" title="Recommandations pro"> Recommandations pro </a>
+				<a href="#contact" title="Contact"> Contact </a>
+			</div>
+        </div>
+
+<!--Titre et intro-->
+
+<div  class="main-premiere">
+    <div class="titre1"><h1>Recommandations professionnelles</h1></div>
+    
+           <div  class="texte-intro">
+               <p> Si vous êtes un ancien collaborateur, vous pouvez laisser ici votre recommandation. </p>
+           </div>
+     
+   </div>
+</div>
+
+<!--formulaires-->
+
+    <form class="formulaire">
+  <!--Box Nom-Prenom-->
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationServer01">Nom</label>
+          <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+          <div class="valid-feedback">
+            check
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationServer02">Prénom</label>
+          <input type="text" class="form-control is-valid" id="validationServer02" value="Jeanine" required>
+          <div class="valid-feedback">
+            check
+          </div>
+        </div>
+      </div>
+<!--Box Poste-Société-->
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationServer01">Poste</label>
+          <input type="text" class="form-control is-valid" id="validationServer01" value="Développeuse front-end" required>
+          <div class="valid-feedback">
+            check
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationServer02">Société</label>
+          <input type="text" class="form-control is-valid" id="validationServer02" value="HTML factory" required>
+          <div class="valid-feedback">
+            check
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationServer02">Adresse e-mail</label>
+          <input type="text" class="form-control is-valid" id="validationServer02" value="mark.jeanine@blabla.fr" required>
+          <div class="valid-feedback">
+            check
+          </div>
+        </div>
+      </div>
+
+<!--Checkbox skills ligne1-->
+      <div class="form-check form-check-inline" required>
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">HTML-CSS</label>
+
+      
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">PHP</label>
+      
+      
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">Javascript</label>
+      </div>
+
+
+<!--Laisser un message-->
+      <div class="form-group">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="form-check">
+
+<!--Checkbox conditions RGPD-->
+          <input class="form-check-input is-invalid" type="checkbox" value=" id="invalidCheck3" required>
+          <label class="form-check-label" for="invalidCheck3">
+            En cochant cette case, je reconnais avoir pris connaissance des <a href="../campus-contest/rgpd.html"> Conditions Générales d'Utilisation</a> du site ainsi que sa Politique de Confidentialité et je les accepte.
+          </label>
+          <div class="invalid-feedback">
+            Vous devez cocher cette case avant d'envoyer
+          </div>
+        </div>
+      </div>
+<!--Bouton envoi-->
+      <button class="btn btn-primary" type="submit">Envoyer</button>
+    </form>
+
+<!--Ancre contact-index-->
+<div id="contact"></div>
+
+<!--Footer-->
+  <div class="footer">
+		<div class="textelink">
+			<p>
+				Anne-Lise Grolleau<br>
+				35000 Rennes <br>
+				07 69 04 58 20<br>
+				<a class="mail" href="mailto:grolleau.annelise@gmail.com">grolleau.annelise@gmail.com</a>
+				</p>
+		</div>
+		<div class="imagelink">
+			<a href="https://www.linkedin.com/in/anne-lise-grolleau-496a6391/"><img style="width:5%; height: auto;float: right;" src="../campus-contest/images/linkedin.png"></a>
+		</div>
+	</div>
+</div>
+    
+
+
+
+</body>

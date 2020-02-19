@@ -1,0 +1,313 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+} 
+
+/*Menu fixe*/
+.accueil{
+    display: flex;
+    width: 100%;
+    height: 16%;
+    background-color:#2648e0;
+    position: fixed;
+    box-shadow: black 0.1em 0.1em 0.2em;
+}
+.logo{
+    width: 60%;
+
+}
+#linkedin{
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+.menu{
+    width: 40%;
+
+}
+.menu>a{
+    text-decoration: none;
+    margin-right: 3%;
+    color: #FF914d;
+    font-family: arimo;
+    font-size: 75%;
+}
+/*Ligne séparation*/
+#ligne{
+    
+   line-height: 2px;
+    width: 75%; 
+    border: solid;
+    margin-top: 2%;
+    color:#FF914d;
+}
+
+/*Div présentation photo et texte */
+.main-premiere{
+    margin-top: 7%;
+}
+.titre1 >h1{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 2%;
+    text-align: center;
+    font-family: arimo;
+    color:#2648e0;
+}
+.titre2{
+    text-align: center;
+    font-family: Space mono;
+    color: #FF914d;
+}
+.main{
+    display: flex;
+}
+.nopictureplease{
+    width: 30%;
+    margin-left: 8%;
+}
+.texte-presentation1{
+    padding-left: 5%;
+    font-family: Space mono;
+    color: #2648e0;
+    font-size: 75%;
+    padding-top: 3%;
+    margin-right: 4%;
+    text-align:justify;
+}
+.bouton{
+    border-radius: 12px;
+    background-color: #2648e0;
+    border: none;
+    padding: 10px 27px;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.bouton > a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Skills*/
+.main-liste{
+    display: block;
+
+
+}
+.carousel-item > img{
+    display: block;
+    margin: 0 auto;
+}
+#img-moyen{
+    width:40%;
+    height:auto;
+}
+#text-succes{
+    color:#2648e0;
+    font-family: arimo;
+    font-weight: 600;
+    font-size:100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: #2648e0;
+    background-size: 100%, 100%;
+    
+}
+
+/*Projets*/
+.projet1{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.imagelpk{
+    width: 20%;
+    height: auto;
+}
+.textelpk{
+    width: 60%;
+    margin-left: 3%;
+    text-align: justify;
+    font-family: Space mono;
+    font-size: 75%;
+    color:#FF914d;
+}
+.projet-LPK{
+    font-size:90%;
+    font-weight: 600;
+    color:#2648e0;    
+    text-decoration: none;
+}
+
+.projet2{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.image-minnie{
+    border:solid 1px grey;
+    width: 20%;
+    height: auto;
+
+}
+.texte-minnie{
+    width: 60%;
+    text-align: justify;
+    font-family: Space mono;
+    font-size: 75%;
+    color:#FF914d;
+}
+.projet-Minnie{
+    font-size: 90;
+    font-weight: 600;
+    color: #2648e0;
+    text-decoration: none;
+}
+
+.projet3{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.imagepatrick{
+    width: 20%;
+    height: auto;
+
+}
+.textepatrick{
+    width: 60%;
+    text-align: justify;
+    font-family: Space mono;
+    font-size: 75%;
+}
+
+/*Cursus*/
+.main-formations{
+    display: flex;
+}
+.formations-gauche{
+    margin-left: 10%;
+    font-family: Space mono;
+    font-size: 12px;
+    padding-top: 2%;
+}
+#titre-formation{
+    font-family: arimo;
+    font-weight:bold;
+    font-size:110%;
+    color:#FF914d;
+}
+#annees-formation{
+    font-family: Space mono;
+    font-size: 85%;
+    font-style: italic;
+    color: #2648e0;
+}
+
+#description-formations{
+    font-family: Space mono;
+    font-size: 90%;
+    color: #2648e0;
+
+}
+.formations-droite{
+    margin-left: 5%;
+    margin-right:5%;
+    font-family: Space mono;
+    font-size: 75%;
+    padding-top: 2%;
+}
+
+/*logos*/
+.ca-logo{
+    float:right;
+}
+.praguecollege{
+    float:right;
+}
+.eegp{
+    float:right;
+    margin-right:3%;
+}
+
+
+/*Recommandations pro*/
+.reco-pro{
+    display: flex;
+    margin:auto;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.reco1-gauche{
+    border:double 3px #C6DBFA;
+    width:45%;
+    height:55%;
+    margin-left: 3%;
+    text-align: center;
+}
+.reco2-droite{
+    border:double 3px #C6DBFA;
+    width:45%;
+    height:55%;
+    margin-left: 3%;
+    text-align: center;
+}
+#nom{
+    font-family: arimo;
+    font-weight: 600;
+    color: #2648e0;
+}
+#quote{
+    font-family: Space mono;
+    font-style: italic;
+    color: #FF914d;
+    font-size: 80%;
+}
+#skills-done{
+    font-family: Space mono;
+    font-weight: 600;
+    color: #2648e0;
+}
+.lien-reco{
+    text-align: center;
+    font-family: Space mono;
+    color: #2648e0;
+    font-size: 75%;
+    padding-bottom: 2%;
+}
+.lien-reco>a{
+    text-decoration: none;
+    color:#2648e0;
+    font-weight: 600;
+}
+.btn {
+    float:right;
+    margin-right: 4%;
+}
+/*Footer*/
+.footer{
+    background-color:#2648e0;
+    display: flex;
+}
+.mail{
+    text-decoration: none;
+    color:#FF914d;
+}
+.textelink{
+    margin-top: 1%;
+    margin-left: 10%;
+    font-family: arimo;
+    color:#FF914d;
+    font-size: 85%;
+}
+.imagelink{
+    padding-top: 2%;
+    width: 65%;
+    height: auto;
+}
